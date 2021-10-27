@@ -61,7 +61,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           overwrite: true
           rm: true
-          source: "docker-compose.yaml,.env,nginx/default.conf"
+          source: "docker-compose.yaml,nginx/default.conf"
           target: "yamdb"
       
       - name: executing remote ssh commands to deploy
