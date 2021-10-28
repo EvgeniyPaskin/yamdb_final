@@ -1,5 +1,5 @@
 [![Sprint_16 Django-app workflow](https://github.com/EvgeniyPaskin/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/EvgeniyPaskin/yamdb_final/actions/workflows/yamdb_workflow.yml)
-
+.
 # Содержание
 
 1. [Информация про проект](#описание-проекта)
