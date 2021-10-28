@@ -33,7 +33,7 @@ jobs:
         echo DB_PORT=${{ secrets.DB_PORT }} >> .env
         echo DJANGO_SECRET_KEY=${{ secrets.DJANGO_SECRET_KEY }} >> .env
         echo DJANGO_ALLOWED_HOSTS=${{ secrets.DJANGO_ALLOWED_HOSTS }} >> .env
-    - name: Task test (pytest)
+    - name: Task test with pytest
       run: |
         pytest
         
