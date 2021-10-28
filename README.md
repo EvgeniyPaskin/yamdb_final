@@ -8,10 +8,9 @@
 4. [Клонирование проекта](#клонирование-проекта)
 5. [Инструкция по переменным окружения .env](#инструкция-по-заполнению-переменных-окружения)
 6. [Команды управления проектом](#команды-управления-проектом)
-7. [Используемые технологии]
-[Бэйджи о статусе Github actions]
-[Информация про автора]
-
+7. [Используемые технологии](#используемые-технологии)
+8. [Текущий статус проекта в Github actions workflow](#cтатус-проекта)
+9. [Информация об авторах](#над-проектом-работали)
 
 
 ## Описание проекта
@@ -108,3 +107,13 @@ docker-compose stop
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 <img src="https://webassets.mongodb.com/_com_assets/cms/cloud_icon_logo_rgb_2-rbdt1hfuo2.png" width="100" height="28">
+
+## Статус проекта
+[![Sprint_16 Django-app workflow](https://github.com/EvgeniyPaskin/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/EvgeniyPaskin/yamdb_final/actions/workflows/yamdb_workflow.yml)
+
+
+## Над проектом работали
+
+- [Evgeniy Paskin](https://github.com/EvgeniyPaskin)
+- [Vladimir Semikin](https://github.com/vsemikin)
+- [Nikita Goncharov](https://github.com/EnemoCE)
