@@ -10,9 +10,8 @@ environ.Env.read_env(os.path.join(BASE_DIR, ".env"))
 
 SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY")
 
+DEBUG = os.environ.get("DJANGO_DEBUG_FLAG", False) == "True"
 
-# DEBUG = os.environ.get("DJANGO_DEBUG_FLAG")
-DEBUG = os.environ.get("DJANGO_DEBUG_FLAG").lower() == "true"
 
 # Для ревьюера: в secrets добавлены следующие хосты:
 # 127.0.0.1 62.84.122.213 'localhost' 'web'
