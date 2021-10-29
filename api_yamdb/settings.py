@@ -5,18 +5,24 @@ from datetime import timedelta
 
 
 env = environ.Env()
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-environ.Env.read_env(os.path.join(BASE_DIR, ".env"))
+# BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# environ.Env.read_env(os.path.join(BASE_DIR, ".env"))
 
-SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY")
+# C переменными окружения валятся тесты на сдаче проекта.
+# (https://yandex-students.slack.com/archives/G01NZ1LU9UL/p1635450817149900)
+# SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY")
 
-DEBUG = os.environ.get("DJANGO_DEBUG_FLAG", False) == "True"
 
+SECRET_KEY = "p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs"
 
-ALLOWED_HOSTS = os.environ.get(
-    "DJANGO_ALLOWED_HOSTS", "127.0.0.1 62.84.122.213 localhost web"
-).split()
+# DEBUG = os.environ.get("DJANGO_DEBUG_FLAG", False) == "True"
+DEBUG = False
 
+# ALLOWED_HOSTS = os.environ.get(
+#     "DJANGO_ALLOWED_HOSTS", "127.0.0.1 62.84.122.213 localhost web"
+# ).split()
+
+ALLOWED_HOSTS = "*"
 
 INSTALLED_APPS = [
     "django.contrib.admin",
